@@ -3,7 +3,8 @@
 
 // See page 8.
 
-// Echo3 prints its command-line arguments.
+// Modify the echo program to also print os.Args[0], the name of the command
+// that invoked it.
 package main
 
 import (

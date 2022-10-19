@@ -2,10 +2,11 @@
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 // Run with "web" command-line argument for web server.
-// See page 13.
+// See page 15.
 //!+main
 
-// Lissajous generates GIF animations of random Lissajous figures.
+// Change the Lissajous program's color palette to green on black, for added
+// authenticity.
 package main
 
 import (

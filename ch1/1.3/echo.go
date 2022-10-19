@@ -3,7 +3,8 @@
 
 // See page 8.
 
-// Echo3 prints its command-line arguments.
+// Experiment to measure the difference in running time between our potentially
+// inefficient versions and the one that use strings.Join.
 package main
 
 import (

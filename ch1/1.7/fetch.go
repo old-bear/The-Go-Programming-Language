@@ -1,10 +1,12 @@
 // Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-// See page 16.
+// See page 17.
 //!+
 
-// Fetch prints the content found at each specified URL.
+// The function call to io.Copy(dst, src) reads from src and writes to dst. Use it
+// instead of ioutil.ReadAll to copy the response body to os.Stdout without requiring
+// a buffer large enough to hold the entire stream.
 package main
 
 import (
