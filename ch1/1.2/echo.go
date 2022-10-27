@@ -8,15 +8,15 @@
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 )
 
 // !+
 func main() {
-	for i, cmd := range os.Args[1:] {
-		fmt.Printf("Arg%v: %q\n", i+1, cmd)
-	}
+    for i, cmd := range os.Args[1:] {
+        fmt.Printf("Arg%v: %q\n", i+1, cmd)
+    }
 }
 
 //!-

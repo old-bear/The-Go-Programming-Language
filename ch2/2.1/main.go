@@ -7,14 +7,14 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"main/tempconv"
+    "main/tempconv"
 )
 
 func main() {
-	fmt.Printf("Boiling temperature is: %v, or %v, or %v\n",
-		tempconv.BoilingC, tempconv.CToF(tempconv.BoilingC), tempconv.CToK(tempconv.BoilingC)) // "100" °C
-	fmt.Printf("Freezing temperature is: %v, or %v, or %v\n",
-		tempconv.FreezingC, tempconv.CToF(tempconv.FreezingC), tempconv.CToK(tempconv.FreezingC)) // "0" °C
+    fmt.Printf("Boiling temperature is: %v, or %v, or %v\n",
+        tempconv.BoilingC, tempconv.CToF(tempconv.BoilingC), tempconv.CToK(tempconv.BoilingC)) // "100" °C
+    fmt.Printf("Freezing temperature is: %v, or %v, or %v\n",
+        tempconv.FreezingC, tempconv.CToF(tempconv.FreezingC), tempconv.CToK(tempconv.FreezingC)) // "0" °C
 }
